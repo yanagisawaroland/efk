@@ -72,7 +72,7 @@ spec:
             - name: discovery.type
               value: single-node
             - name: ES_JAVA_OPTS
-              value: "-Xms512m -Xmx512m"
+              value: "-Xms400m -Xmx400m"
             - name: xpack.security.enabled
               value: "false"
             - name: xpack.monitoring.enabled
