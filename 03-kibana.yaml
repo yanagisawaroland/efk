@@ -30,10 +30,10 @@ spec:
               value: "false"
           resources:
             requests:
-              memory: 256Mi
+              memory: 128Mi
               cpu: 100m
             limits:
-              memory: 512Mi
+              memory: 300Mi
               cpu: 500m
           readinessProbe:
             httpGet:
